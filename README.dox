@@ -32,6 +32,23 @@ Rviz configuration file:
 
     rviz/urdf.rviz
 
+--------------------------
+- Installing the Package -
+--------------------------
+
+To install and run this package, make sure a catkin workspace is present.
+If not, follow the code below.
+
+    $ mkdir -p ~/workspace/src
+
+Now, copy the contents of this package (ie. the folder 'truckparking')
+into the 'src' folder created above. Then, run
+
+    $ catkin_make
+
+to build the package. To actually run, the package and the simulation
+see the next topic below.
+
 -----------------------
 - Ways to Run Package -
 -----------------------
