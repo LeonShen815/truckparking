@@ -1,6 +1,8 @@
+<!-- Shamelessly copied from https://github.com/ros/urdf_tutorial -->
+
 <launch>
 
-  <arg name="model" default="$(find truckparking)/urdf/r2d2.xacro"/>
+  <arg name="model" default="$(find truckparking)/urdf/truck.urdf"/>
   <arg name="gui" default="true" />
   <arg name="rvizconfig" default="$(find truckparking)/rviz/urdf.rviz" />
 

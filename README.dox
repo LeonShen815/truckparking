@@ -1,0 +1,48 @@
+/*!
+
+\mainpage
+
+\brief Simulation for Path Planning for Trailer Trucks
+
+\author Edward Ahn <edwardahn@cmu.edu>
+
+In this package, code is written to simulate self-parking of a trailer
+truck. This package, called 'truckparking', is documented in detail below.
+Please contact Edward Ahn at <edwardahn@cmu.edu> for any bugs found.
+
+-----------------------------------
+- Important Files and Directories -
+-----------------------------------
+
+Files necessary to build package:
+
+    package.xml
+
+    CMakeLists.txt
+
+Launch file to view model in Rviz:
+
+    launch/display.launch
+
+URDF file modeling trailer truck:
+
+    urdf/truck.urdf
+
+Rviz configuration file:
+
+    rviz/urdf.rviz
+
+-----------------------
+- Ways to Run Package -
+-----------------------
+
+Note: Before running any of these commands, run the following command in
+another separate terminal window.
+
+    $ roscore
+
+To view the truck model in Rviz:
+
+    $ roslaunch truckparking display.launch
+
+*/
