@@ -10,6 +10,8 @@ In this package, code is written to simulate self-parking of a trailer
 truck. This package, called 'truckparking', is documented in detail below.
 Please contact Edward Ahn at <edwardahn@cmu.edu> for any bugs found.
 
+\todo Viewing documentation in Doxygen format
+
 -----------------------------------
 - Important Files and Directories -
 -----------------------------------
@@ -44,9 +46,11 @@ If not, follow the code below.
 Now, copy the contents of this package (ie. the folder 'truckparking')
 into the 'src' folder created above. Then, run
 
+    $ cd ~/workspace
+
     $ catkin_make
 
-to build the package. To actually run, the package and the simulation
+to build the package. To actually run the package and the simulation
 see the next topic below.
 
 -----------------------

@@ -1,10 +1,8 @@
-<!-- Shamelessly copied from https://github.com/ros/urdf_tutorial -->
-
 <launch>
 
   <arg name="model" default="$(find truckparking)/urdf/truck.urdf"/>
   <arg name="gui" default="true" />
-  <arg name="rvizconfig" default="$(find truckparking)/rviz/urdf.rviz" />
+  <arg name="rvizconfig" default="$(find truckparking)/rviz/config.rviz" />
 
   <param name="robot_description" command="$(find xacro)/xacro.py $(arg model)" />
   <param name="use_gui" value="$(arg gui)"/>

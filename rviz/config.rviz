@@ -61,12 +61,7 @@ Visualization Manager:
         Expand Link Details: false
         Expand Tree: false
         Link Tree Style: Links in Alphabetic Order
-        base_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        right_leg:
+        head:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -82,25 +77,19 @@ Visualization Manager:
       Frame Timeout: 15
       Frames:
         All Enabled: true
-        base_link:
-          Value: true
-        right_leg:
-          Value: true
       Marker Scale: 0.5
       Name: TF
       Show Arrows: true
       Show Axes: true
       Show Names: true
       Tree:
-        base_link:
-          right_leg:
-            {}
+        {}
       Update Interval: 0
       Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
-    Fixed Frame: base_link
+    Fixed Frame: head
     Frame Rate: 30
   Name: root
   Tools:
@@ -133,10 +122,10 @@ Visualization Manager:
         Z: 0.0236866
       Name: Current View
       Near Clip Distance: 0.01
-      Pitch: 0.430397
+      Pitch: 0.240397
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.198583
+      Yaw: 0.353583
     Saved: ~
 Window Geometry:
   Displays:
@@ -154,5 +143,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1216
-  X: 7
+  X: -10
   Y: 14
