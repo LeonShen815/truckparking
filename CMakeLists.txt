@@ -9,9 +9,15 @@ catkin_package()
 
 ## Build includes
 include_directories(
-  ${catkin_INCLUDE_DIRS}
-)
+    ${catkin_INCLUDE_DIRS}
+    )
 
 ## Install other resources
-install(DIRECTORY launch urdf rviz
-    DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
+install(
+    DIRECTORY
+    launch
+    rviz
+    urdf
+    DESTINATION
+    ${CATKIN_PACKAGE_SHARE_DESTINATION}
+    )
